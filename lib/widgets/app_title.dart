@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:pokedex_app/constants/constants.dart';
 import 'package:pokedex_app/constants/u%C4%B1_helper.dart';
 
 class AppTitle extends StatelessWidget {
@@ -14,14 +15,11 @@ class AppTitle extends StatelessWidget {
         children: [
           Padding(
             padding: UIHelper.getPadding(),
-            child: const Align(
+            child: Align(
                 alignment: Alignment.centerLeft,
                 child: Text(
                   'Pokedex',
-                  style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 48,
-                      fontWeight: FontWeight.bold),
+                  style: Constants.getTitleTextStyle(),
                 )),
           ),
           Align(
