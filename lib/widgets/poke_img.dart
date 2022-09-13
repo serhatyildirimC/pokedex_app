@@ -23,14 +23,17 @@ class PokeImage extends StatelessWidget {
         ),
         Align(
           alignment: Alignment.bottomRight,
-          child: CachedNetworkImage(
-              imageUrl: pokemon.img ?? '',
-              width: UIHelper.pokeImgSize(),
-              height: UIHelper.pokeImgSize(),
-              fit: BoxFit.fitHeight,
-              placeholder: (context, url) => const CircularProgressIndicator(
-                    color: Colors.red,
-                  )),
+          child: Hero(
+            tag: pokemon.id!,
+            child: CachedNetworkImage(
+                imageUrl: pokemon.img ?? '',
+                width: UIHelper.pokeImgSize(),
+                height: UIHelper.pokeImgSize(),
+                fit: BoxFit.fitHeight,
+                placeholder: (context, url) => const CircularProgressIndicator(
+                      color: Colors.red,
+                    )),
+          ),
         )
       ],
     );
