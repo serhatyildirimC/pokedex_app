@@ -1,16 +1,5 @@
-# pokedex_app
 
-A new Flutter project.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot_1672661408](https://user-images.githubusercontent.com/97103117/210230371-688363e6-7c99-43bb-b22f-5d8c5b696162.png)
+![Screenshot_1672661422](https://user-images.githubusercontent.com/97103117/210230393-7cabbe32-e97d-4d85-ab46-81ca638e1281.png)
+![Screenshot_1672661431](https://user-images.githubusercontent.com/97103117/210230410-1e4e28ee-5c56-422b-882b-27b1334e76dd.png)
